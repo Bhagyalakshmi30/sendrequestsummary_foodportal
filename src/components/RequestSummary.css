@@ -1,0 +1,330 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.logoheader {
+    height: 72px;
+
+}
+
+.bodyofsummary {
+    margin-left: 100px;
+    margin-right: 50px;
+}
+
+.logoandheadingsummary {
+
+    display: flex;
+    align-items: center;
+
+
+    width: 177px;
+    height: 33px;
+    top: 121px;
+    left: 150px;
+
+}
+
+.Summarytext {
+    padding-bottom: 5px;
+    padding-left: 9px;
+}
+
+.orderdetailsinsummary {
+    display: flex;
+    padding-top: 30px;
+}
+
+.Informationinsummary {
+    padding-right: 20px;
+}
+
+.contactdetailsinsummary {
+    padding-top: 30px;
+}
+
+.ContactTextinSummary {
+    font-size: larger;
+    font-weight: 500;
+    color: #424242;
+
+}
+
+.inputdetail {
+
+    padding-top: 20px;
+}
+
+.rowsininputdetails {
+    display: flex;
+    gap: 20px;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+
+    color: linear-gradient(0deg, #9E9E9E, #9E9E9E);
+
+
+}
+
+.delivery-address-summary input {
+    max-width: 50%;
+    /* Adjust the width as needed */
+}
+
+.delivery-address-summary {
+    margin-top: 20px;
+}
+
+
+.delivery-address-summary label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 12px;
+    font-weight: 100;
+
+}
+
+
+.input-container-summary {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    /* Adjust as needed */
+}
+
+.input-container-summary label {
+    margin-bottom: 5px;
+    /* Adjust as needed */
+}
+
+
+
+
+
+.rowsininputdetails {
+    display: flex;
+    justify-content: space-between;
+    /* Distribute boxes evenly across the row */
+    flex-wrap: wrap;
+    /* Wrap to next row if needed */
+    gap: 20px;
+    /* Space between boxes */
+}
+
+.input-container-summary {
+    flex-basis: calc(33.33% - 20px);
+    /* Each box takes one-third width minus gap */
+    display: flex;
+    flex-direction: column;
+}
+
+.input-container-summary label {
+    margin-bottom: 5px;
+    font-weight: 100;
+    font-size: 12px;
+}
+
+.input-container-summary input {
+    width: 100%;
+    height: 37px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.delivery-address-summary textarea {
+    width: 100%;
+    height: 45px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+
+}
+
+.required {
+    color: red;
+    margin-left: 4px;
+
+}
+
+
+.tablesinsummary {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    margin-top: 30px;
+
+}
+
+.ordertextinsummary {
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 37px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #424242;
+
+}
+
+.billingtextinsummary {
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 37px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #424242;
+}
+
+
+/* TABLE CSS */
+
+
+
+
+
+.tablesinsummary {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    /* Add spacing as needed */
+}
+
+.orderdetailstableinsummary {
+    flex: 0 0 65%;
+    /* Take up 80% of the available space, no shrinking, no growing */
+    margin-right: 20px;
+    /* Add spacing between tables */
+}
+
+.billingdetailstableinsummary {
+    flex: 1;
+    /* Take up the remaining available space */
+}
+
+.ordertextinsummary,
+.billingtextinsummary {
+    display: block;
+
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+
+.billing-details-table {
+    width: 100%;
+    border-collapse: collapse;
+    border: none;
+}
+
+.order-details-table {
+    width: 100%;
+    border-collapse: collapse;
+    border: none;
+}
+
+
+
+.order-details-table th,
+.order-details-table td,
+.billing-details-table th,
+.billing-details-table td {
+    border: none;
+    padding: 8px;
+    text-align: left;
+}
+
+.order-details-table th:nth-child(1) {
+    width: 50%;
+    /* Adjust width for the Items column */
+}
+
+.order-details-table th:nth-child(2),
+.order-details-table th:nth-child(3),
+.order-details-table th:nth-child(4) {
+    width: 16.67%;
+    /* Equal width for Qty, Plate, Amount columns */
+}
+
+/* Common styles for the table header */
+.tableheaderinsummary th {
+    background-color: #d3d3d3; /* Ash color background */
+    color: #000; /* Black text color */
+    border: none;
+}
+
+
+.orderdetailstableinsummary .tableheaderinsummary th {
+    padding: 10px 8px; 
+    text-align: left; 
+    font-weight: 300;
+}
+
+
+.billingdetailstableinsummary .tableheaderinsummary th {
+    padding: 8px; 
+    text-align: center; 
+    font-weight: 300;
+}
+
+.tablebodyinsummary{
+   text-align: center;
+}
+/* Common styles for the table body */
+.tablebodyinsummary td {
+    text-align: center; /* Align content in the center */
+    padding: 10px; /* Adjust padding as needed */
+    border: none; /* Remove borders */
+}
+
+/* Additional styles for the first table */
+.orderdetailstableinsummary .tablebodyinsummary td {
+    text-align: center; /* Align content in the center */
+}
+
+/* Additional styles for the second table */
+.billingdetailstableinsummary .tablebodyinsummary td {
+    text-align: center; /* Align content in the center */
+}
+
+
+
+.footerforsummary{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.backbuttoninsummary{
+    background-color: white;
+    border: 2px solid #FF6D00;
+    color: #FF6D00;
+    width: 137px;
+  
+    height: 44px;
+    border-radius: 8px;
+}
+
+
+.sendrequestbuttoninsummary{
+    background-color: #FF6D00;
+    color: white;
+    border: 2px solid #FF6D00;
+    width: 175px;
+   
+    border-radius: 8px;
+    height: 44px;
+}
